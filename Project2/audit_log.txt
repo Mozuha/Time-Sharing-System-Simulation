@@ -1,0 +1,38 @@
+ Time   Process ID   Log
+
+    2 |    proc002 | Process start
+ 1028 |    proc002 | Process unfinished within the quantum. Still need 475 to complete
+ 1030 |    proc004 | Process start
+ 2056 |    proc004 | Process unfinished within the quantum. Still need 1975 to complete
+ 2058 |    proc005 | Process start
+ 3084 |    proc005 | Process unfinished within the quantum. Still need 2025 to complete
+ 3086 |    proc001 | Process start
+ 3886 |    proc001 | Process complete
+ 3888 |    proc003 | Process start
+ 4138 |    proc003 | Process complete
+ 4140 |    proc006 | Process start
+ 4240 |    proc006 | Process complete
+ 4242 |    proc007 | Process start
+ 4542 |    proc007 | Process complete
+ 4544 |    proc008 | Process start
+ 5294 |    proc008 | Process complete
+ 5296 |    proc009 | Process start
+ 6296 |    proc009 | Process complete
+ 6298 |    proc010 | Process start
+ 7324 |    proc010 | Process unfinished within the quantum. Still need 1025 to complete
+ 7326 |    proc002 | Process start
+ 7801 |    proc002 | Process complete
+ 7803 |    proc004 | Process start
+ 8829 |    proc004 | Process unfinished within the quantum. Still need 950 to complete
+ 8831 |    proc005 | Process start
+ 9857 |    proc005 | Process unfinished within the quantum. Still need 1000 to complete
+ 9859 |    proc010 | Process start
+10884 |    proc010 | Process complete
+10886 |    proc004 | Process start
+11836 |    proc004 | Process complete
+11838 |    proc005 | Process start
+12838 |    proc005 | Process complete
+
+All processes completed in 12838
+Total wait time is: 58949
+Average wait time is: 5894.9

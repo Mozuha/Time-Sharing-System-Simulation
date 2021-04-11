@@ -1,0 +1,30 @@
+ Time   Process ID   Log
+
+    2 |    proc001 | Process start
+  802 |    proc001 | Process complete
+  804 |    proc002 | Process start
+ 2304 |    proc002 | Process complete
+ 2306 |    proc003 | Process start
+ 2556 |    proc003 | Process complete
+ 2558 |    proc004 | Process start
+ 4559 |    proc004 | Process unfinished within the quantum. Still need 1000 to complete
+ 4561 |    proc005 | Process start
+ 6562 |    proc005 | Process unfinished within the quantum. Still need 1050 to complete
+ 6564 |    proc006 | Process start
+ 6664 |    proc006 | Process complete
+ 6666 |    proc007 | Process start
+ 6966 |    proc007 | Process complete
+ 6968 |    proc008 | Process start
+ 7718 |    proc008 | Process complete
+ 7720 |    proc009 | Process start
+ 8720 |    proc009 | Process complete
+ 8722 |    proc010 | Process start
+10723 |    proc010 | Process unfinished within the quantum. Still need 50 to complete
+10725 |    proc004 | Process start
+11725 |    proc004 | Process complete
+11727 |    proc005 | Process start
+12777 |    proc005 | Process complete
+12779 |    proc010 | Process start
+12829 |    proc010 | Process complete
+
+All processes completed in 12829
