@@ -1,0 +1,84 @@
+Number of process: 10
+Quantum: 1025
+
+Process ID    Process time
+   proc001             800
+   proc002            1500
+   proc003             250
+   proc004            3000
+   proc005            3050
+   proc006             100
+   proc007             300
+   proc008             750
+   proc009            1000
+   proc010            2050
+
+
+----------------Log--------------------
+
+ Time   Process ID   Log
+    2 |    proc001 | Process start
+  802 |    proc001 | Process complete
+  804 |    proc002 | Process start
+ 1830 |    proc002 | Process unfinished within the quantum. Still need 475 to complete
+ 1832 |    proc003 | Process start
+ 2082 |    proc003 | Process complete
+ 2084 |    proc004 | Process start
+ 3110 |    proc004 | Process unfinished within the quantum. Still need 1975 to complete
+ 3112 |    proc005 | Process start
+ 4138 |    proc005 | Process unfinished within the quantum. Still need 2025 to complete
+ 4140 |    proc006 | Process start
+ 4240 |    proc006 | Process complete
+ 4242 |    proc007 | Process start
+ 4542 |    proc007 | Process complete
+ 4544 |    proc008 | Process start
+ 5294 |    proc008 | Process complete
+ 5296 |    proc009 | Process start
+ 6296 |    proc009 | Process complete
+ 6298 |    proc010 | Process start
+ 7324 |    proc010 | Process unfinished within the quantum. Still need 1025 to complete
+ 7326 |    proc002 | Process start
+ 7801 |    proc002 | Process complete
+ 7803 |    proc004 | Process start
+ 8829 |    proc004 | Process unfinished within the quantum. Still need 950 to complete
+ 8831 |    proc005 | Process start
+ 9857 |    proc005 | Process unfinished within the quantum. Still need 1000 to complete
+ 9859 |    proc010 | Process start
+10884 |    proc010 | Process complete
+10886 |    proc004 | Process start
+11836 |    proc004 | Process complete
+11838 |    proc005 | Process start
+12838 |    proc005 | Process complete
+
+
+----------------Stats--------------------
+
+All processes completed in 12838
+Total wait time is: 53809
+Average wait time is: 5380.9
+Average turnaround time is: 6660.9
+Average normalized turnaround time is: 9.89
+
+Process ID   Turnaround time
+   proc001               802
+   proc002              7800
+   proc003              2082
+   proc004             11834
+   proc005             12836
+   proc006              4240
+   proc007              4542
+   proc008              5294
+   proc009              6296
+   proc010             10883
+
+Process ID    Normalized turnaround time
+   proc001              1.00
+   proc002              5.20
+   proc003              8.33
+   proc004              3.94
+   proc005              4.21
+   proc006             42.40
+   proc007             15.14
+   proc008              7.06
+   proc009              6.30
+   proc010              5.31

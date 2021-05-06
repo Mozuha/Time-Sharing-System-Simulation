@@ -1,0 +1,70 @@
+Number of process: 10
+Process ID    Process time
+   proc001             800
+   proc002            1500
+   proc003             250
+   proc004            3000
+   proc005            3050
+   proc006             100
+   proc007             300
+   proc008             750
+   proc009            1000
+   proc010            2050
+
+
+----------------Log--------------------
+
+ Time   Process ID   Log
+    2 |    proc001 | Process start
+  802 |    proc001 | Process complete
+  804 |    proc002 | Process start
+ 2304 |    proc002 | Process complete
+ 2306 |    proc003 | Process start
+ 2556 |    proc003 | Process complete
+ 2558 |    proc004 | Process start
+ 5558 |    proc004 | Process complete
+ 5560 |    proc005 | Process start
+ 8610 |    proc005 | Process complete
+ 8612 |    proc006 | Process start
+ 8712 |    proc006 | Process complete
+ 8714 |    proc007 | Process start
+ 9014 |    proc007 | Process complete
+ 9016 |    proc008 | Process start
+ 9766 |    proc008 | Process complete
+ 9768 |    proc009 | Process start
+10768 |    proc009 | Process complete
+10770 |    proc010 | Process start
+12820 |    proc010 | Process complete
+
+
+----------------Stats--------------------
+
+All processes completed in 12820
+Total wait time is: 58110
+Average wait time is: 5811.0
+Average turnaround time is: 7091.0
+Average normalized turnaround time is: 16.46
+
+Process ID   Turnaround time
+   proc001               802
+   proc002              2304
+   proc003              2556
+   proc004              5558
+   proc005              8610
+   proc006              8712
+   proc007              9014
+   proc008              9766
+   proc009             10768
+   proc010             12820
+
+Process ID    Normalized turnaround time
+   proc001              1.00
+   proc002              1.54
+   proc003             10.22
+   proc004              1.85
+   proc005              2.82
+   proc006             87.12
+   proc007             30.05
+   proc008             13.02
+   proc009             10.77
+   proc010              6.25

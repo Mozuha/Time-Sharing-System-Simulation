@@ -1,0 +1,70 @@
+Number of process: 10
+Process ID    Process time
+   proc001             800
+   proc002            1500
+   proc003             250
+   proc004            3000
+   proc005            3050
+   proc006             100
+   proc007             300
+   proc008             750
+   proc009            1000
+   proc010            2050
+
+
+----------------Log--------------------
+
+ Time   Process ID   Log
+    2 |    proc001 | Process start
+  802 |    proc001 | Process complete
+  804 |    proc006 | Process start
+  904 |    proc006 | Process complete
+  906 |    proc003 | Process start
+ 1156 |    proc003 | Process complete
+ 1158 |    proc007 | Process start
+ 1458 |    proc007 | Process complete
+ 1460 |    proc008 | Process start
+ 2210 |    proc008 | Process complete
+ 2212 |    proc009 | Process start
+ 3212 |    proc009 | Process complete
+ 3214 |    proc002 | Process start
+ 4714 |    proc002 | Process complete
+ 4716 |    proc010 | Process start
+ 6766 |    proc010 | Process complete
+ 6768 |    proc004 | Process start
+ 9768 |    proc004 | Process complete
+ 9770 |    proc005 | Process start
+12820 |    proc005 | Process complete
+
+
+----------------Stats--------------------
+
+All processes completed in 12820
+Total wait time is: 31010
+Average wait time is: 3101.0
+Average turnaround time is: 4381.0
+Average normalized turnaround time is: 3.96
+
+Process ID   Turnaround time
+   proc001               802
+   proc002              4714
+   proc003              1156
+   proc004              9768
+   proc005             12820
+   proc006               904
+   proc007              1458
+   proc008              2210
+   proc009              3212
+   proc010              6766
+
+Process ID    Normalized turnaround time
+   proc001              1.00
+   proc002              3.14
+   proc003              4.62
+   proc004              3.26
+   proc005              4.20
+   proc006              9.04
+   proc007              4.86
+   proc008              2.95
+   proc009              3.21
+   proc010              3.30
